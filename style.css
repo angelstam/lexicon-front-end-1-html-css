@@ -51,3 +51,16 @@ section {
     width: 50%;
     float: left;
 }
+
+
+footer {
+    color: white;
+    background-color: gray;
+    margin: 0;
+    padding: 2em;
+    clear: both; /* clear any previous floats */
+}
+
+footer strong {
+    font-weight: 900;
+}
