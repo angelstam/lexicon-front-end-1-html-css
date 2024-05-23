@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -62,5 +62,5 @@ footer {
 }
 
 footer strong {
-    font-weight: 900;
+    font-weight: bolder;
 }
