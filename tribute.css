@@ -1,0 +1,41 @@
+/* exercise-html-css-hyllningen */
+
+.tributePhoto {
+    margin: 5px;
+    padding: 1em;
+    filter: drop-shadow(20px 20px);
+}
+
+.galleryImage {
+    width: 50%;
+    float: left;
+}
+
+main {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+article {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 500px;
+    background-color: whitesmoke;
+    filter: drop-shadow(gray 1rem 1rem 10px);
+    overflow: hidden;
+}
+
+h1 {
+    border-bottom: 1px dotted darkgray;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
