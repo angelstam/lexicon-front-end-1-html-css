@@ -1,0 +1,36 @@
+/* lecture-27-may */
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.container {
+    background-color: teal;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container-column {
+    flex-direction: column;
+}
+
+.container-space-around {
+    justify-content: space-around;
+}
+
+.container-space-between {
+    justify-content: space-between;
+}
+
+.flex-item {
+    background-color: hotpink;
+    height: 30px;
+    width: 30px;
+}
