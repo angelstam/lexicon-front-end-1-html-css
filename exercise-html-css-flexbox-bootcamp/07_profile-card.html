@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- exercise-html-css-flexbox-bootcamp -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+            background-color: darkgray;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        article {
+            margin: 2rem;
+            box-shadow: 0 0 3rem rgba(0, 0, 0, .1);
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: whitesmoke;
+            border-radius: 1em;
+            height: 20rem;
+            width: 15rem;
+            padding: 1rem
+        }
+
+        article a.close:after {
+            display: inline-block;
+            content: "\00d7"; /* This will render the 'X' */
+        }
+
+        article a.close {
+            color: darkgray;
+            align-self: flex-end;
+            font-size: 2rem;
+            font-weight: 100;
+            line-height: 50%;
+        }
+
+        article a.close:hover {
+            color: black;
+        }
+
+        article p {
+            color: darkgray;
+            font-size: 1.2em;
+            margin-top: 0.5em;
+        }
+
+        article img {
+            border-radius: 100%;
+            width: 8rem;
+            height: 8rem;
+            object-fit: cover;
+            margin-top: 4em;
+        }
+
+        article h1 {
+            font-size: 2em;
+            margin-bottom: 0.4em;
+        }
+
+        article nav {
+            display: flex;
+            margin-top: auto;
+            width: 100%;
+            height: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        article nav a {
+            font-size: 1.2em;
+            text-decoration: none;
+            color: white;
+            padding: 1em;
+            background-color: #333333;
+            border-radius: 2rem;
+            width: 100%
+        }
+
+        article nav a:hover {
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <a class="close" href="#" title="Close"></a>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Edsger_Dijkstra_1994.jpg/640px-Edsger_Dijkstra_1994.jpg">
+        <h1>Edsger Dijkstra</h1>
+        <p>Dutch computer scientist, programmer, software engineer, and science essayist</p>
+        <nav>
+            <a href="https://en.wikipedia.org/wiki/Edsger_W._Dijkstra" class="active">Omg, tell me more</a>
+        </nav>
+    </article>
+</body>
+
+</html>
