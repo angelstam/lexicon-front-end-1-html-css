@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- exercise-html-css-flexbox-bootcamp -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Hard</title>
+    <style type="text/css">
+        body {
+            text-align: center;
+            background-color: white;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            background-color: whitesmoke;
+        }
+
+        nav .logo {
+            margin: auto auto auto 1rem;
+            font-size: 1.6rem;
+        }
+
+        nav .login {
+            margin: auto 1rem auto auto;
+            font-size: 1em;
+            padding: 0.4em 2em;
+            color: darkgray;
+        }
+
+        nav>a {
+            color: darkgray;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0.8rem 2rem;
+        }
+
+        nav>a:hover {
+            background-color: gray;
+            color: white
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <aside class="logo">&Oscr;</aside>
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+        <a href="#">Option 4</a>
+        <button class="login">login</button>
+    </nav>
+</body>
+
+</html>
